@@ -8,6 +8,8 @@ I started this repository as a reminder for myself next time I need to go trough
 
 This setup is made to make websites run faster and get a good [Google pagespeed test tool](https://developers.google.com/speed/pagespeed/insights) score. 
 
+> :warning: Be careful implementing this in a production because some PageSpeed modules might compress, combine and compress your files (in cache). Be sure to test well :)
+
 ## Installing Nginx with PageSpeed (latest)
 
 1. Install Nginx `$ sudo apt-get update && sudo apt-get install nginx`
